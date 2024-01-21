@@ -17,5 +17,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/Cogno-Harmonic-AIMLSolutions/Agile%20Project
-            azure-pipeline-name: 'Cogno-Harmonic-AIML-Solutions.gitapp'
+            azure-pipeline-name: 'webapp'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
